@@ -1,0 +1,55 @@
+# 安卓通用忽略规则
+# 构建输出目录
+/build/
+/app/build/
+/*/build/
+/buildSrc/build/
+/PatchX-Android-Main-C/build.gradle
+/PatchX-Android-Main-C/unityLibrary
+# 生成的文件
+/app/generated/
+/*/generated/
+
+# 本地配置文件（包含密钥、路径等）
+local.properties
+
+#  Gradle 缓存和配置
+.gradle/
+
+gradlew
+gradlew.bat
+
+.DS_Store
+
+
+
+# Android Studio 配置文件
+.idea/
+*.iml
+*.iws
+*.ipr
+/out/
+
+# 日志和临时文件
+*.log
+*.swp
+*.swo
+.DS_Store  # Mac 系统文件
+Thumbs.db  # Windows 系统文件
+
+# 签名文件（包含敏感信息）
+*.jks
+*.keystore
+*.properties  # 若有自定义签名配置文件
+
+# 第三方库缓存
+/.cxx/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# 测试相关
+/app/test/
+/app/androidTest/
+/*/test/
+/*/androidTest/
